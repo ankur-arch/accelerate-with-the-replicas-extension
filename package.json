@@ -1,0 +1,16 @@
+{
+  "name": "accelerate-read-replica-experiment",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^5.10.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/extension-accelerate": "^0.6.3",
+    "@prisma/extension-read-replicas": "^0.3.0"
+  }
+}
